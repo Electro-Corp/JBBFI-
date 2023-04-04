@@ -23,8 +23,10 @@ public:
   struct {
     char pre;
     char* type;
-    <class T> goofy;
-  } opcode;
+    <class gen> val;
+  } bytecode_inst;
+
+
   // void initOpCodes(){
   //   opCodes.push_back("const");
   // }
