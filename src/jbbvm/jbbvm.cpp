@@ -23,7 +23,7 @@ public:
   struct {
     char pre;
     char* type;
-    <class gen> val;
+    //<class gen> val;
   } bytecode_inst;
 
 
@@ -32,4 +32,4 @@ public:
   // }
 
   
-}
+};
